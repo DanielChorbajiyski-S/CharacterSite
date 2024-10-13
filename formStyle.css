@@ -1,0 +1,67 @@
+body{
+    background: url(https://scitechdaily.com/images/Astrophysics-Space-Void-Concept-Art.jpg);
+}
+main{
+    width:800px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.615);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color:aliceblue;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 0 0 50px -20px rgba(255, 255, 255);;
+}
+ button{
+    font-size: medium;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+} 
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+}
+.pushable:active .front {
+    transform: translateY(-2px);
+}
+h1{
+    text-align: center;
+    color:white;
+}
+input{
+    height: 20px;
+    border-radius: 40px;
+}
+.gridContainer{
+    display: grid;
+    font-size: large;
+    width:400px;
+    grid-gap: 5px;
+    grid-template-columns: 50% 50%; 
+}
+.Container{
+    display:block;
+    margin: auto;
+    width: 400px;
+}
+
+
