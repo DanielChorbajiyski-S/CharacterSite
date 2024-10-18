@@ -127,4 +127,7 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
+}.image-cont img{
+    height: 300px;
+    margin-right:10px;
 }
